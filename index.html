@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script>
+        const changeMode = () => {
+            let mybody = document.body;
+            mybody.classList.toggle('dark');
+        }
+
+    </script>
+
+</head>
+<body>
+    <div id="main">
+    <marquee behavior="alternate">Light Mode Dark Mode testing</marquee>
+    <p>Inspect our code to learn about Light Mode and Dark Mode and Promotion Coupons !!</p>
+    <button onclick="changeMode()">Click me</button>
+    <img src="/img/wp9109485.JPG" width="100%" height="400px" alt="">
+    </div>
+
+    <div id="coupon">
+        <button id="click" onclick="closeCoupon()">&times;</button>
+        <h2>Check This out!!</h2>
+    </div>
+    <script>
+        window.onload = loadCoupon();
+    </script>
+        
+</body>
+</html>

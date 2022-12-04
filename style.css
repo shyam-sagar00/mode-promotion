@@ -1,0 +1,44 @@
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+marquee{
+font-size:40px ;
+font-style: italic;
+
+}
+p{
+text-align: center;
+font-size: 50px;
+color: navy;
+}
+button{
+font-size: 60px;
+margin-left:40%;
+background-color: aqua;
+
+}
+#coupon{
+    height: 200px;
+    width:400px;
+    background-color: gray;
+    margin-left: 38%;
+    position: absolute;
+    z-index: 100;
+    margin bottom:50px;
+}
+#click{
+    background-color: antiquewhite;
+    height: 65px;
+    width: 30%;
+    margin-left: 36%;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: pink;
+}
